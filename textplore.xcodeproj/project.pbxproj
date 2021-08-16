@@ -13,7 +13,61 @@
 		1B75E25E26BBA334001F1883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B75E25D26BBA334001F1883 /* Assets.xcassets */; };
 		1B75E26126BBA334001F1883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B75E26026BBA334001F1883 /* Preview Assets.xcassets */; };
 		1B75E26426BBA334001F1883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B75E26226BBA334001F1883 /* LaunchScreen.storyboard */; };
+		1B75E26C26BD30B6001F1883 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75E26B26BD30B6001F1883 /* ContentView2.swift */; };
+		1B8A47FC26C62F6700A2148F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A47FB26C62F6700A2148F /* Assets.xcassets */; };
+		1B8A480326C62F6700A2148F /* watch textplore Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B8A480226C62F6700A2148F /* watch textplore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B8A480826C62F6700A2148F /* textploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A480726C62F6700A2148F /* textploreApp.swift */; };
+		1B8A480A26C62F6700A2148F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A480926C62F6700A2148F /* ContentView.swift */; };
+		1B8A480C26C62F6700A2148F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A480B26C62F6700A2148F /* NotificationController.swift */; };
+		1B8A480E26C62F6700A2148F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A480D26C62F6700A2148F /* NotificationView.swift */; };
+		1B8A481026C62F6700A2148F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A480F26C62F6700A2148F /* ComplicationController.swift */; };
+		1B8A481226C62F6800A2148F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A481126C62F6800A2148F /* Assets.xcassets */; };
+		1B8A481526C62F6800A2148F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A481426C62F6800A2148F /* Preview Assets.xcassets */; };
+		1B8A481A26C62F6800A2148F /* watch textplore.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B8A47F926C62F6600A2148F /* watch textplore.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B8A482426C6468900A2148F /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A482326C6468900A2148F /* ContentView3.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8A480426C62F6700A2148F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B75E24C26BBA333001F1883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8A480126C62F6700A2148F;
+			remoteInfo = "watch textplore Extension";
+		};
+		1B8A481826C62F6800A2148F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B75E24C26BBA333001F1883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8A47F826C62F6600A2148F;
+			remoteInfo = "watch textplore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B8A481B26C62F6800A2148F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B8A481A26C62F6800A2148F /* watch textplore.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8A481E26C62F6800A2148F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B8A480326C62F6700A2148F /* watch textplore Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B75E25426BBA333001F1883 /* textplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +78,32 @@
 		1B75E26026BBA334001F1883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B75E26326BBA334001F1883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B75E26526BBA334001F1883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B75E26B26BD30B6001F1883 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		1B8A47F926C62F6600A2148F /* watch textplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch textplore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8A47FB26C62F6700A2148F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B8A47FD26C62F6700A2148F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8A480226C62F6700A2148F /* watch textplore Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch textplore Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8A480726C62F6700A2148F /* textploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textploreApp.swift; sourceTree = "<group>"; };
+		1B8A480926C62F6700A2148F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B8A480B26C62F6700A2148F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B8A480D26C62F6700A2148F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1B8A480F26C62F6700A2148F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1B8A481126C62F6800A2148F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B8A481426C62F6800A2148F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B8A481626C62F6800A2148F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8A481726C62F6800A2148F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1B8A482326C6468900A2148F /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1B75E25126BBA333001F1883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8A47FF26C62F6700A2148F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				1B75E25626BBA333001F1883 /* textplore */,
+				1B8A47FA26C62F6600A2148F /* watch textplore */,
+				1B8A480626C62F6700A2148F /* watch textplore Extension */,
 				1B75E25526BBA333001F1883 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				1B75E25426BBA333001F1883 /* textplore.app */,
+				1B8A47F926C62F6600A2148F /* watch textplore.app */,
+				1B8A480226C62F6700A2148F /* watch textplore Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +139,8 @@
 				1B75E25726BBA333001F1883 /* AppDelegate.swift */,
 				1B75E25926BBA333001F1883 /* SceneDelegate.swift */,
 				1B75E25B26BBA333001F1883 /* ContentView.swift */,
+				1B75E26B26BD30B6001F1883 /* ContentView2.swift */,
+				1B8A482326C6468900A2148F /* ContentView3.swift */,
 				1B75E25D26BBA334001F1883 /* Assets.xcassets */,
 				1B75E26226BBA334001F1883 /* LaunchScreen.storyboard */,
 				1B75E26526BBA334001F1883 /* Info.plist */,
@@ -75,6 +157,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1B8A47FA26C62F6600A2148F /* watch textplore */ = {
+			isa = PBXGroup;
+			children = (
+				1B8A47FB26C62F6700A2148F /* Assets.xcassets */,
+				1B8A47FD26C62F6700A2148F /* Info.plist */,
+			);
+			path = "watch textplore";
+			sourceTree = "<group>";
+		};
+		1B8A480626C62F6700A2148F /* watch textplore Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B8A480726C62F6700A2148F /* textploreApp.swift */,
+				1B8A480926C62F6700A2148F /* ContentView.swift */,
+				1B8A480B26C62F6700A2148F /* NotificationController.swift */,
+				1B8A480D26C62F6700A2148F /* NotificationView.swift */,
+				1B8A480F26C62F6700A2148F /* ComplicationController.swift */,
+				1B8A481126C62F6800A2148F /* Assets.xcassets */,
+				1B8A481626C62F6800A2148F /* Info.plist */,
+				1B8A481726C62F6800A2148F /* PushNotificationPayload.apns */,
+				1B8A481326C62F6800A2148F /* Preview Content */,
+			);
+			path = "watch textplore Extension";
+			sourceTree = "<group>";
+		};
+		1B8A481326C62F6800A2148F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B8A481426C62F6800A2148F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +200,51 @@
 				1B75E25026BBA333001F1883 /* Sources */,
 				1B75E25126BBA333001F1883 /* Frameworks */,
 				1B75E25226BBA333001F1883 /* Resources */,
+				1B8A481B26C62F6800A2148F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B8A481926C62F6800A2148F /* PBXTargetDependency */,
 			);
 			name = textplore;
 			productName = textplore;
 			productReference = 1B75E25426BBA333001F1883 /* textplore.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1B8A47F826C62F6600A2148F /* watch textplore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8A482226C62F6800A2148F /* Build configuration list for PBXNativeTarget "watch textplore" */;
+			buildPhases = (
+				1B8A47F726C62F6600A2148F /* Resources */,
+				1B8A481E26C62F6800A2148F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8A480526C62F6700A2148F /* PBXTargetDependency */,
+			);
+			name = "watch textplore";
+			productName = "watch textplore";
+			productReference = 1B8A47F926C62F6600A2148F /* watch textplore.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B8A480126C62F6700A2148F /* watch textplore Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8A482126C62F6800A2148F /* Build configuration list for PBXNativeTarget "watch textplore Extension" */;
+			buildPhases = (
+				1B8A47FE26C62F6700A2148F /* Sources */,
+				1B8A47FF26C62F6700A2148F /* Frameworks */,
+				1B8A480026C62F6700A2148F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch textplore Extension";
+			productName = "watch textplore Extension";
+			productReference = 1B8A480226C62F6700A2148F /* watch textplore Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,6 +256,12 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					1B75E25326BBA333001F1883 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1B8A47F826C62F6600A2148F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1B8A480126C62F6700A2148F = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -123,6 +280,8 @@
 			projectRoot = "";
 			targets = (
 				1B75E25326BBA333001F1883 /* textplore */,
+				1B8A47F826C62F6600A2148F /* watch textplore */,
+				1B8A480126C62F6700A2148F /* watch textplore Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +297,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1B8A47F726C62F6600A2148F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A47FC26C62F6700A2148F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8A480026C62F6700A2148F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A481526C62F6800A2148F /* Preview Assets.xcassets in Resources */,
+				1B8A481226C62F6800A2148F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,12 +322,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B75E25826BBA333001F1883 /* AppDelegate.swift in Sources */,
+				1B75E26C26BD30B6001F1883 /* ContentView2.swift in Sources */,
 				1B75E25A26BBA333001F1883 /* SceneDelegate.swift in Sources */,
+				1B8A482426C6468900A2148F /* ContentView3.swift in Sources */,
 				1B75E25C26BBA333001F1883 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1B8A47FE26C62F6700A2148F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A480C26C62F6700A2148F /* NotificationController.swift in Sources */,
+				1B8A480A26C62F6700A2148F /* ContentView.swift in Sources */,
+				1B8A481026C62F6700A2148F /* ComplicationController.swift in Sources */,
+				1B8A480826C62F6700A2148F /* textploreApp.swift in Sources */,
+				1B8A480E26C62F6700A2148F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B8A480526C62F6700A2148F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8A480126C62F6700A2148F /* watch textplore Extension */;
+			targetProxy = 1B8A480426C62F6700A2148F /* PBXContainerItemProxy */;
+		};
+		1B8A481926C62F6800A2148F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8A47F826C62F6600A2148F /* watch textplore */;
+			targetProxy = 1B8A481826C62F6800A2148F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1B75E26226BBA334001F1883 /* LaunchScreen.storyboard */ = {
@@ -323,6 +526,94 @@
 			};
 			name = Release;
 		};
+		1B8A481C26C62F6800A2148F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHN5V927Z7;
+				IBSC_MODULE = watch_textplore_Extension;
+				INFOPLIST_FILE = "watch textplore/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.textplore.textplore.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1B8A481D26C62F6800A2148F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHN5V927Z7;
+				IBSC_MODULE = watch_textplore_Extension;
+				INFOPLIST_FILE = "watch textplore/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.textplore.textplore.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1B8A481F26C62F6800A2148F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watch textplore Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KHN5V927Z7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watch textplore Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.textplore.textplore.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1B8A482026C62F6800A2148F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watch textplore Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KHN5V927Z7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watch textplore Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.textplore.textplore.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +631,24 @@
 			buildConfigurations = (
 				1B75E26926BBA334001F1883 /* Debug */,
 				1B75E26A26BBA334001F1883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8A482126C62F6800A2148F /* Build configuration list for PBXNativeTarget "watch textplore Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8A481F26C62F6800A2148F /* Debug */,
+				1B8A482026C62F6800A2148F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8A482226C62F6800A2148F /* Build configuration list for PBXNativeTarget "watch textplore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8A481C26C62F6800A2148F /* Debug */,
+				1B8A481D26C62F6800A2148F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
